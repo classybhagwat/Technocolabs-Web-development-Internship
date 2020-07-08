@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form a Story</title>
+    </head>
+    <body>
+        <form action="/story.html" method="get">
+            <label for="animal-1">Animal-1</label>
+            <input id="animal-1" type="text" name="animal-1" placeholder="eg:lion" required>
+            <br>
+            <label for="animal-2">animal-2</label>
+            <input id="animal-2" type="text" name="animal-2"  placeholder="eg:lion" required>
+            <br>
+            <label for="animal-3">animal-3</label>
+            <input id="animal-3" name="animal-3" type="text"  placeholder="eg:lion" required>
+            <br>
+            <label for="adj-1">Adjective (past tense):</label> 
+            <input id="adj-1" name="adj-1" type="text"  placeholder="eg:adj" required>
+            <br>
+            <label for="verb-1">Verb (ends in -ing)</label>
+            <input id="verb-1" name="verb-1" type="text"  placeholder="eg:verb" required>
+            <br>
+            <label for="num-1">Number:</label>
+            <input id="num-1" name="num-1" type="number" min="1" max="10" placeholder="1-10" required>
+            <br>
+            <p><span>Yes or No:</span></p>
+            <input id="yes" type="radio" name="answer" value="yes" required>
+            <label for="yes">Yes</label>
+            <br>  
+            <input id="no" name="answer" type="radio"  value="no" required>
+            <label for="no">no</label>
+            <br>
+            <label for="speed">Relative speed (ends in -er):</label>
+            <select id="speed" name="speed" required>
+                <option value="faster">Faster</option>
+                <option value="medium">Medium</option>
+                <option value="slow">Slow</option>
+            </select>
+            <br>  
+            <label for="quote">Motivational Quote:</label>
+            <input id="quote" name="quote" type="text" list="quote-choices" minlength="5" maxlength="25" required>
+            <datalist id="quote-choices">
+                <option value="winner gets ice cream!"></option>
+            </datalist>   
+            <br>
+            <label for="message">meaningfull message</label>
+            <textarea id="message" name="message" rows="8" cols="40" minlength="10" maxlength="100"></textarea>
+            <br>
+
+        
+            <center><input type="submit" value="Form My Story!"></center>
+        </form>
+    </body>
+</html>
