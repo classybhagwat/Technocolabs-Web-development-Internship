@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="icon" type="images/png" href="images/logo1.png"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">    
+    <title>Technocolabs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+
+
+<body onload="myFunction()">
+    <div id="loading"></div>
+
+    <!-----<div id="popUpMain" style="display: none;">
+        <div id="popup">
+            <h2 id="news1">please Login with your register Email and password..</h2>
+           
+            <br>
+            <a href="logo.html#login"><button class="submitId">Login</button></a>
+            <a href="logo.html#registeer"><button class="submitId">Signup</button></a>
+        </div>
+    </div>-->
+    <!-----Navigation bar-->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="images/logo1.png"><b style="color: blue;">Technocolab</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html#about">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html#card">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html#services">SUPPORT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="home.html#team">OUR TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="home.html#testimonial">FOUNDER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="home.html#Contact">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="carrer.html">CAREERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="logo.html"><i class="fa fa-user"></i> Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <div id="slider">
+        
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/—Pngtree—technology business line atmosphere_931814.jpg" class="d-block img-fluid" style="height: 620px;" alt="...">
+                    <div class="carousel-caption text-responsive" id="home">
+                        <h2> 
+                            Technocolabs
+                        </h2>
+
+                        <p><span class="typing">
+                           </span>
+                        </p>
+                    </div>
+                </div>
+                
+                
+            </div>
+           
+        </div>
+    </div>
+
+    <!--Footer-->
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/logo1.png" class="footimg">
+                <div class="heading">
+                    <h5>© Copyright 2020 Technocolabs - All Rights Reserved</h5>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <ul class="social-media col-md-6 my-5">
+                    <li> <a href="https://www.facebook.com/@Technocolabs/"><i class="fa fa-facebook-square"></i></a></li>
+                    <li> <a href="https://twitter.com/technocolabs"><i class="fa fa-twitter-square"></i></a></li>
+                    <li> <a href="https://instagram.com/technocolabs94/"><i class="fa fa-instagram"></i></a></li>
+                    <li> <a href="https://www.linkedin.com/company/31138875"><i class="fa fa-linkedin"></i></a></li>
+                </ul>     
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<js>
+    <script src="js/smooth-scroll.polyfills.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/load.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script>
+        $(document).ready(function(){
+    setTimeout(function(){
+        $('#popUpMain').css('display','block')
+
+
+    },1000);
+});
+
+    </script>
+     <script>
+        // $(document).ready(function(){
+        // 	$('div#loading').removeAttr('id');
+    // });
+    var preloader = document.getElementById("loading");
+    // window.addEventListener('load', function(){
+    // 	preloader.style.display = 'none';
+    // 	})
+
+    function myFunction(){
+  preloader.style.display = 'none';
+};
+    </script>
+</js>
+</body>
+</html>

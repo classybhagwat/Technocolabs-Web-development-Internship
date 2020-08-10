@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="icon" type="images/png" href="images/logo1.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Technocolabs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+
+
+<body onload="myFunction()">
+    <div id="loading"></div>
+
+    <!-----<div id="popUpMain" style="display: none;">
+        <div id="popup">
+            <h2 id="news1">please Login with your register Email and password..</h2>
+           
+            <br>
+            <a href="logo.html#login"><button class="submitId">Login</button></a>
+            <a href="logo.html#registeer"><button class="submitId">Signup</button></a>
+        </div>
+    </div>-->
+    <!-----Navigation bar-->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="images/logo1.png"><b style="color: blue;">Technocolab</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#card">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">SUPPORT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#team">OUR TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#testimonial">FOUNDER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Contact">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="carrer.html">CAREERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="logo.html"><i class="fa fa-user"></i> Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!------Slider-->
+    <div id="slider">
+        <div id="headerslider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#headerslider" data-slide-to="0" class="active"></li>
+                <li data-target="#headerslider" data-slide-to="1"></li>
+                <li data-target="#headerslider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/—Pngtree—flat solid geometry corporate company_1084749.jpg"
+                        class="d-block img-fluid" alt="...">
+                    <div class="carousel-caption text-responsive">
+                        <h2>
+                            Technocolabs
+                        </h2>
+
+                        <p>
+                            Technocolabs is non-profit organization which is followed by technical experts for
+                            enthusiastic learners.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/—Pngtree—flat solid geometry corporate company_1084749.jpg"
+                        class="d-block img-fluid" alt="...">
+                    <div class="carousel-caption">
+                        <h2>
+                            Technocolabs
+                        </h2>
+
+                        <p>
+
+                            Technocolabs is non-profit organizations followed by technical experts in multiple
+                            technology domain such as Python,
+                            Machine Learning, Data Science, Java, Anroid,kotlin,etc....
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/—Pngtree—flat solid geometry corporate company_1084749.jpg"
+                        class="d-block img-fluid" alt="...">
+                    <div class="carousel-caption">
+                        <p>Welcome To Technocolabs</p>
+                        <h2> #100 Days of Code </h2>
+                        <p>"It's still magic even if you Know how it's done."</p>
+
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#headerslider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#headerslider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!---------About secTion form here-->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2><b>About Us</b></h2>
+                    <div class="about-content">
+                        Technical Colabs is a leading tech Startups with learn something new and innovative ideas
+                        ,information,upcoming new information technology and also up gradations in existing
+                        technology.Artificial intelligence machine learning have great way to develop..|<br>
+                        <br>
+                        Technocolabs is non-profit organizations followed by technical experts in multiple technology
+                        domain such as Python, Machine Learning, Data Science, Java, Anroid,kotlin,etc....<br>
+                        <br>
+                        Welcome To Technocolabs
+                        #100 Days of Code
+                        "It's still magic even if you Know how it's done."
+                    </div>
+                    <button type="button" class="btn btn-primary">Read more>></button>
+                </div>
+                <div class="col-md-6 skills-bar">
+                    <h5><b>Skills to be provided by -</b></h5>
+                    <p>python</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 95%;">95%</div>
+                    </div>
+
+                    <p>Machine-Learning</p>
+</body>
+<div class="progress">
+    <div class="progress-bar" style="width: 96%;">96%</div>
+</div>
+
+<p>Data Science</p>
+<div class="progress">
+    <div class="progress-bar" style="width: 94%;">94%</div>
+</div>
+
+<p>Java</p>
+<div class="progress">
+    <div class="progress-bar" style="width: 95%;">95%</div>
+</div>
+
+<p>Web-Development</p>
+<div class="progress">
+    <div class="progress-bar" style="width: 98%;">98%</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-------Services-->
+<section id="services">
+    <div class="container">
+        <h1>Our Support</h1>
+        <div class="row services">
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fa fa-desktop"></i>
+                </div>
+                <h3>Computer Vision</h3>
+                <p>As a scientific discipline, computer vision is concerned with the theory and technology for
+                    building artificial systems that obtain information from images or multi-dimensional data.
+
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fa fa-desktop"></i>
+                </div>
+                <h3>Machine-Learning</h3>
+                <p>Machine learning is the scientific study of algorithms and statistical models that computer
+                    systems use to perform a specific task.....
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fa fa-database"></i>
+                </div>
+                <h3>Data Science</h3>
+                <p>Python is an interpreted, high-level, general-purpose programming language. Created by Guido van
+                    Rossum and first released in 1991.
+
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fa fa-desktop"></i>
+                </div>
+                <h3>Deep-Learning</h3>
+                <p>Deep learning is part of a broader family of machine learning methods based on artificial neural
+                    networks with representation learning.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-----Team our-->
+<section id="team">
+    <div class="container">
+        <h1>Our Team</h1>
+        <div class="row">
+            <div class="col-md-4 profile-pic text-center">
+                <div class="img-box">
+                    <img src="images/m1.png" class="img-responsive">
+                    <ul>
+                        <a href="#">
+                            <li> <i class="fa fa-facebook"></i></li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fa fa-twitter"></i></li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fa fa-linkedin"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <h2>Yasin Shah</h2>
+                <h3><b>Founder/ CEO</b></h3>
+                <p>Full Stack Python & Machine Learning Developer</p>
+            </div>
+            <div class="col-md-4 profile-pic text-center">
+                <div class="img-box">
+                    <img src="images/m3.png" class="img-responsive">
+                    <ul>
+                        <a href="#">
+                            <li> <i class="fa fa-facebook"></i></li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fa fa-twitter"></i></li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fa fa-linkedin"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <h2>Saumya Singh</h2>
+                <h3>Developer</h3>
+                <p>Java , Kotlin & Android
+                    Developer</p>
+            </div>
+            <div class="col-md-4 profile-pic text-center">
+                <div class="img-box">
+                    <img src="images/m2.png" class="img-responsive">
+                    <ul>
+                        <a href="#">
+                            <li> <i class="fa fa-facebook"></i></li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fa fa-twitter"></i></li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fa fa-linkedin"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <h2>Safiya Naaz Shaikh</h2>
+                <h3>Developer</h3>
+                <p>Python & Machine Learning Developer</p>
+            </div>
+            <div class="col-md-4 profile-pic text-center">
+                <div class="img-box">
+                    <img src="images/m4.png" class="img-responsive">
+                    <ul>
+                        <a href="#">
+                            <li> <i class="fa fa-facebook"></i></li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fa fa-twitter"></i></li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fa fa-linkedin"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <h2>Abhishek Kumar </h2>
+                <h3>Developer</h3>
+                <p>Computer Vision & Deep Learning Expert</p>
+            </div>
+            <div class="col-md-4 profile-pic text-center">
+                <div class="img-box">
+                    <img src="images/m5.png" class="img-responsive">
+                    <ul>
+                        <a href="#">
+                            <li> <i class="fa fa-facebook"></i></li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fa fa-twitter"></i></li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fa fa-linkedin"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <h2>Dheeraj </h2>
+                <h3>Developer</h3>
+                <p>Full Stack Android
+                    Developer</p>
+            </div>
+            <div class="col-md-4 profile-pic text-center">
+                <div class="img-box">
+                    <img src="images/m6.png" class="img-responsive">
+                    <ul>
+                        <a href="#">
+                            <li> <i class="fa fa-facebook"></i></li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fa fa-twitter"></i></li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fa fa-linkedin"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <h2>Utkarsh Raj Singh </h2>
+                <h3>Developer</h3>
+                <p>Full Stack Python & Js
+                    Developer</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-----------Promotion-->
+<section id="promo">
+    <div class="container">
+        <p>Get a Intrenship or work with Technocolabs please apply and grab your position ...</p>
+        <a href="carrer.html" class="btn btn-primary">Apply Now...</a>
+    </div>
+</section>
+<!---------Services card-->
+<section id="card">
+    <div class="container">
+        <h1>Our Services</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="Single-price">
+                    <div class="price-head">
+                        <img src="images/cc.png">
+                    </div>
+                    <div class="heading">
+                        <h4>C</h4>
+                    </div>
+                    <div class="price-content">
+                        <p>C is a general-purpose, procedural computer programming language supporting structured
+                            programming, lexical variable scope, and recursion, while a static type system prevents
+                            unintended operations.</p>
+                    </div>
+                    <div class="price-button">
+                        <a class="buy-btn" href="https://devdocs.io/c/">Learn more..</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="Single-price">
+                    <div class="price-head">
+                        <img src="images/cpp.jfif">
+                    </div>
+                    <div class="heading">
+                        <h4>C++</h4>
+                    </div>
+                    <div class="price-content">
+                        <p>C++, as we all know is an extension to C language and was developed by Bjarne stroustrup
+                            at bell labs.C++ is a statically typed, free form, multiparadigm, compiled
+                            general-purpose language.
+
+                        </p>
+                    </div>
+                    <div class="price-button">
+                        <a class="buy-btn" href="https://devdocs.io/cpp/">Learn more..</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="Single-price">
+                    <div class="price-head">
+                        <img src="images/jj.jfif">
+                    </div>
+                    <div class="heading">
+                        <h4>JAVA</h4>
+                    </div>
+                    <div class="price-content">
+                        <p>
+                            Java is a programming language created by James Gosling from Sun Microsystems (Sun) in
+                            1991. The target of Java is to write a program once and then run this program on
+                            multiple operating systems</p>
+                    </div>
+                    <div class="price-button">
+                        <a class="buy-btn" href="https://docs.oracle.com/en/java/">Learn more..</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="Single-price">
+                    <div class="price-head">
+                        <img src="images/kotlin.jfif">
+                    </div>
+                    <div class="heading">
+                        <h4>KOTLIN</h4>
+                    </div>
+                    <div class="price-content">
+                        <p>Kotlin is an OSS statically typed programming language that targets the JVM, Android,
+                            JavaScript and Native. It's developed by JetBrains. The project started in 2010 and was
+                            open source from very early on.</p>
+                    </div>
+                    <div class="price-button">
+                        <a class="buy-btn" href="https://kotlinlang.org/docs/reference/kotlin-doc.html">Learn more..</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="Single-price">
+                    <div class="price-head">
+                        <img src="images/an1.png">
+                    </div>
+                    <div class="heading">
+                        <h4>ANDROID</h4>
+                    </div>
+                    <div class="price-content">
+                        <p>Android software development is process by applications are created for devices running
+                            the Android OS. Google states that "Android apps can be written using Kotlin, Java, and
+                            C++ languages".
+
+                        </p>
+                    </div>
+                    <div class="price-button">
+                        <a class="buy-btn" href="https://developer.android.com/docs">Learn more..</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="Single-price">
+                    <div class="price-head">
+                        <img src="images/compvisi.jfif">
+                    </div>
+                    <div class="heading">
+                        <h4>COMPUTER VISION</h4>
+                    </div>
+                    <div class="price-content">
+                        <p>As a scientific discipline, computer vision is concerned with the theory and technology
+                            for building artificial systems that obtain information from images or multi-dimensional
+                            data.</p>
+                    </div>
+                    <div class="price-button">
+                        <a class="buy-btn" href="https://www.sciencedaily.com/terms/computer_vision.htm">Learn
+                            more..</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="Single-price">
+                    <div class="price-head">
+                        <img src="images/pythonn.jfif">
+                    </div>
+                    <div class="heading">
+                        <h4>PYTHON</h4>
+                    </div>
+                    <div class="price-content">
+                        <p>Python is an interpreted, high-level, general-purpose programming language. Created by
+                            Guido van Rossum and first released in 1991.</p>
+                    </div>
+                    <div class="price-button">
+                        <a class="buy-btn" href="https://docs.python.org/3/">Learn more..</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="Single-price">
+                    <div class="price-head">
+                        <img src="images/machine.jfif">
+                    </div>
+                    <div class="heading">
+                        <h4>Machine Learning</h4>
+                    </div>
+                    <div class="price-content">
+                        <p>Machine learning is the scientific study of algorithms and statistical models that
+                            computer systems use to perform a specific task.....</p>
+                    </div>
+                    <div class="price-button">
+                        <a class="buy-btn" href="http://www.deeplearning.net/tutorial/">Learn more..</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!--------FOUNDER-->
+<section id="testimonial">
+    <div class="container">
+        <h1>Technocolab Founder</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <div class="profile">
+                <img src="images/m1.png" class="user">
+                <blockquote>
+                    Founder and Trainer at Technocolabs, Google Assistant Developer at GCP, Software Engineer
+                    Trainee in
+                    Machine Learning & AI at Spydar Africa, Facilitator and Mentor in Machine Learning and Data
+                    science
+                    at Facebook Developer Circle,Project Mentor GSSoC’20 at Girl Script India.
+
+                </blockquote>
+                <h3>Yasin Shah <span>Founder</span></h3>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!-------Sponsors-->
+<section id="sponsors">
+    <h1>Our Sponsors</h1>
+
+    <div id="slider">
+        <div id="headerslider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#headerslider" data-slide-to="0" class="active"></li>
+                <li data-target="#headerslider" data-slide-to="1"></li>
+                <li data-target="#headerslider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/—Pngtree—technology business line atmosphere_931814.jpg" class="d-block img-fluid"
+                        alt="...">
+                    <div class="carousel-caption text-responsive">
+
+                        <img src="images/progate-393x128.png" alt="" style="height:200px;width: 400px;">
+
+
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/—Pngtree—technology business line atmosphere_931814.jpg" class="d-block img-fluid"
+                        alt="...">
+                    <div class="carousel-caption">
+
+                        <img src="images/geeksgod.png" alt="" style="height:200px;width: 400px;">
+
+
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/—Pngtree—technology business line atmosphere_931814.jpg" class="d-block img-fluid"
+                        alt="...">
+                    <div class="carousel-caption">
+                        <img src="images/spydar_logo.png" alt="" style="height:200px;width: 400px;">
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/—Pngtree—technology business line atmosphere_931814.jpg" class="d-block img-fluid"
+                        alt="...">
+                    <div class="carousel-caption">
+                        <img src="images/coding_ninja.png" alt="" style="height:200px;width: 400px;">
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/—Pngtree—technology business line atmosphere_931814.jpg" class="d-block img-fluid"
+                        alt="...">
+                    <div class="carousel-caption">
+                        <img src="images/devc.png" alt="" style="height:200px;width: 400px;">
+
+                    </div>
+                </div>
+
+
+            </div>
+            <a class="carousel-control-prev" href="#headerslider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#headerslider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+<!---Get in touch-->
+<section id="Contact">
+    <div class="container">
+        <h1>Get In Touch</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <form class="contact-form"   action="MAILTO:chiddarwarbhagwta16@gmail.com" method="POST" enctype="text/plain" >
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" placeholder="phone number">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="email">
+                    </div>
+                    <label>Upload your resume</label><input type="file">
+        
+                    <div class="form-group">
+                        <textarea class="form-control" row="4" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="sumbmit1">SEND MESSAGE</button>
+                </form>
+            </div>
+            <div class="col-md-6 contact-info">
+                <div class="follow"><b>Address: </b><i class="fa fa-map-marker"></i> Indore M.P.
+
+                </div>
+                <div class="follow"><b>Phone: </b><i class="fa fa-phone"></i> +91 8319291391
+
+                </div>
+                <div class="follow"><b>Email: </b><i class="fa fa-envelope-o"></i> technocolabs@gmail.com
+
+                </div>
+                <div class="follow"><b>Working Hours: </b><i class="fa fa-briefcase"></i> 10:00Am-10:00Pm
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!--Footer-->
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/logo1.png" class="footimg">
+                <div class="heading">
+                    <h5>© Copyright 2020 Technocolabs - All Rights Reserved</h5>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <ul class="social-media col-md-6 my-5">
+                    <li> <a href="https://www.facebook.com/@Technocolabs/"><i class="fa fa-facebook-square"></i></a>
+                    </li>
+                    <li> <a href="https://twitter.com/technocolabs"><i class="fa fa-twitter-square"></i></a></li>
+                    <li> <a href="https://instagram.com/technocolabs94/"><i class="fa fa-instagram"></i></a></li>
+                    <li> <a href="https://www.linkedin.com/company/31138875"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<js>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/load.js"></script>
+    <script src="js/smooth-scroll.polyfills.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                $('#popUpMain').css('display', 'block')
+
+
+            }, 1000);
+        });
+    </script>
+    <script>
+        // $(document).ready(function(){
+        // 	$('div#loading').removeAttr('id');
+        // });
+        var preloader = document.getElementById("loading");
+        // window.addEventListener('load', function(){
+        // 	preloader.style.display = 'none';
+        // 	})
+
+        function myFunction() {
+            preloader.style.display = 'none';
+        };
+    </script>
+     <script>
+        $(document).ready(function () {
+           $('#sumbmit1').click(function(){
+            swal("Your message has been successfully sent!", "We appreciaate you contacting us and we'll be in touch soon", "success");
+           });
+
+
+        });
+    </script>
+</js>
+</html>
